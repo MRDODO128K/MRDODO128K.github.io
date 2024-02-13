@@ -54,30 +54,36 @@ document.addEventListener('DOMContentLoaded', function() {
     }
     function clearScreen() {
         document.body.innerHTML = ''; // Eliminar todos los elementos del cuerpo
-        createHearts();
+       
+        showLoveText();
         const gifImage = document.createElement('img');
-    gifImage.src = 'arriba.gif'; // Ruta de tu GIF
-    gifImage.style.width = '200px'; // Ancho del GIF
-    gifImage.style.height = '200px'; // Alto del GIF
-    gifImage.style.position = 'absolute'; // Posición absoluta
-    gifImage.style.top = '30%'; // Posición vertical centrada
-    gifImage.style.left = '50%'; // Posición horizontal centrada
-    gifImage.style.transform = 'translate(-50%, -50%)'; // Centrar el GIF
-    document.body.innerHTML = '';
-    // Crear y posicionar el botón
-    const newButton = document.createElement('button');
-    newButton.textContent = 'Presiona aqui <3"';
-    newButton.style.position = 'absolute';
-    newButton.style.top = '55%'; // Cambia la posición vertical del botón
-    newButton.style.left = '43%'; // Cambia la posición horizontal del botón
-    newButton.addEventListener('click', function() {
-        // Mostrar la ventana emergente con el texto "patata"
-        alert('Eres lo mejor que me ha pasado te amo demasiado, te esperan mas sorpresas para cuando vaya');
-    });
+        gifImage.src = 'arriba.gif'; // Ruta de tu GIF
+        gifImage.style.width = '200px'; // Ancho del GIF
+        gifImage.style.height = '200px'; // Alto del GIF
+        gifImage.style.position = 'absolute'; // Posición absoluta
+        gifImage.style.top = '30%'; // Posición vertical centrada
+        gifImage.style.left = '50%'; // Posición horizontal centrada
+        gifImage.style.transform = 'translate(-50%, -50%)'; // Centrar el GIF
+        document.body.innerHTML = '';
+        // Crear y posicionar el botón
+        
+        const newButton = document.createElement('button');
+        newButton.textContent = 'Presiona aqui <3"';
+        newButton.style.position = 'absolute';
+        newButton.style.top = '55%'; // Cambia la posición vertical del botón
+        newButton.style.left = '43%'; // Cambia la posición horizontal del botón
+        newButton.addEventListener('click', function() {
+            // Mostrar la ventana emergente con el texto "patata"
+            alert('Eres lo mejor que me ha pasado te amo demasiado, te esperan mas sorpresas para cuando vaya');
+            // Obtener referencia al nuevo botón
+        });
+
+    
 
     // Agregar el botón al cuerpo del documento
     document.body.appendChild(newButton);
     document.body.appendChild(gifImage);
+    createHearts();
     }
 
     function showYei() {
@@ -98,7 +104,18 @@ document.addEventListener('DOMContentLoaded', function() {
         loveText.textContent = 'Te amo mucho <3';
         document.body.appendChild(loveText);
     }
+    onload = () =>{
+        document.body.classList.remove("container");
+    };
+    function showGif() {
 
+
+
+    }
+
+   
+
+ 
 });
 
 
