@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<object class="org.opensourcephysics.cabrillo.tracker.Tracker$Preferences">
+    <property name="xuggle_smooth" type="boolean">true</property>
+    <property name="tracker_jar" type="string">tracker.jar</property>
+    <property name="cache" type="string">C:\Users\uli_j\AppData\Local\OSP\Cache</property>
+    <property name="upgrade_interval" type="int">0</property>
+    <property name="last_checked" type="int">1664372121</property>
+    <property name="file_chooser_directory" type="string">C:/Users/uli_j/Downloads</property>
+    <property name="recent_files" type="collection" class="java.util.ArrayList">
+        <property name="item" type="string">C:/Users/uli_j/Downloads/WhatsApp Video 2022-09-28 at 8.36.45 AM.mp4</property>
+    </property>
+</object>
