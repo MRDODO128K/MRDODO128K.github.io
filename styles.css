@@ -94,7 +94,7 @@ button {
     position: fixed;
     width: 20px;
     height: 20px;
-    background-image: url('\uli_j\kiby\gifs\corazon2.gif');
+    background-image: url('corazon2.gif');
     background-size: cover;
     animation: heartFall 3s linear infinite;
 }
